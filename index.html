@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Denteez</title>
+
+  <link rel="stylesheet" href="styles/styles.css">
+
+  <script src="scripts/jquery.slim.min.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container container_flex">
+      <a class="logo" href="#"></a>
+
+      <input class="search-field header__search-field" type="search" 
+        placeholder="Company name">
+
+      <div class="user">
+        <a class="user__chat" href="#"></a>
+
+        <a class="user__notifications" href="#"></a>
+
+        <span class="user__avatar"></span>
+
+        <a class="user__name" href="#">Maximillian Beekeeper</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar sidebar_left">
+      <nav>
+        <ul class="nav">
+          <li class="nav__item nav__item_feed">
+            <a href="#" class="nav__link">Feed</a>
+          </li>
+          <li class="nav__item nav__item_ask">
+            <a href="#" class="nav__link">Ask a Colleague</a>
+          </li>
+          <li class="nav__item nav__item_companies">
+            <a href="#" class="nav__link">Companies</a>
+          </li>
+          <li class="nav__item nav__item_service-directory">
+            <a href="#" class="nav__link">Service Directory</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="ad">
+        <span class="ad__title">Advertisement</span>
+        <a href="#" class="ad__image ad__image_captain"></a>
+        <span class="ad__signature">Ads By Denteez.com</span>
+      </div>
+
+      <div class="sidebar-section">
+        <a href="#" class="sidebar-section__see-all-link">See all</a>
+
+        <h3 class="sidebar-section__title">Featured Companies</h3>
+
+        <div class="sidebar-item">
+          <img class="sidebar-item__image" 
+            src="images/company-belgrade.jpg" alt="office"></img>
+          <span class="sidebar-item__name">Company name</span>
+          <span class="sidebar-item__info">Manufacturer</span>
+          <span class="sidebar-item__info">Belgrade, Serbia</span>
+          <a class="sidebar-item__link" href="#">Follow now</a>
+        </div>
+
+        <div class="sidebar-item">
+          <img class="sidebar-item__image" 
+            src="images/company-ny.jpg" alt="facade"></img>
+          <span class="sidebar-item__name">Company name</span>
+          <span class="sidebar-item__info">Service provider</span>
+          <span class="sidebar-item__info">New York, USA</span>
+          <a class="sidebar-item__link" href="#">Follow now</a>
+        </div>
+
+        <div class="sidebar-item">
+          <img class="sidebar-item__image" 
+            src="images/company-london.jpg" alt="facade"></img>
+          <span class="sidebar-item__name">Company name</span>
+          <span class="sidebar-item__info">Supplier</span>
+          <span class="sidebar-item__info">London, England</span>
+          <a class="sidebar-item__link" href="#">Follow now</a>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <span class="footer__copyright">Denteez Copyright 2015</span>
+        <a class="footer__link" href="#">Terms of use</a>
+        <a class="footer__link" href="#">Privacy policy</a>
+      </footer>
+    </aside>
+
+    <aside class="sidebar sidebar_right">
+      <div class="sidebar-section">
+        <a href="#" class="sidebar-section__see-all-link">See all</a>
+
+        <h3 class="sidebar-section__title">People you may know</h3>
+
+        <div class="sidebar-item">
+          <span class="sidebar-item__name">Dennis Adams</span>
+          <img class="sidebar-item__image" 
+            src="images/dennis-adams.jpg" alt="dennis adams"></img>
+          <span class="sidebar-item__info">Dentis (Practice Owner)</span>
+          <span class="sidebar-item__info">London, England</span>
+          <a class="sidebar-item__link" href="#">Add friend</a>
+        </div>
+
+        <div class="sidebar-item">
+          <span class="sidebar-item__name">Mary Carpenter</span>
+          <img class="sidebar-item__image" 
+            src="images/mary-carpenter.jpg" alt="mary carpenter"></img>
+          <span class="sidebar-item__info">Dentis (Practice Owner)</span>
+          <span class="sidebar-item__info">Belgrade, Serbia</span>
+          <a class="sidebar-item__link" href="#">Add friend</a>
+        </div>
+
+        <div class="sidebar-item">
+          <span class="sidebar-item__name">Danielle Salazar</span>
+          <img class="sidebar-item__image" 
+            src="images/danielle-salazar.jpg" alt="danielle salazar"></img>
+          <span class="sidebar-item__info">Dentis (Practice Owner)</span>
+          <span class="sidebar-item__info">Paris, France</span>
+          <a class="sidebar-item__link" href="#">Add friend</a>
+        </div>
+      </div>
+
+      <div class="sidebar-section">
+        <a href="#" class="sidebar-section__see-all-link">See all</a>
+
+        <h3 class="sidebar-section__title">Featured Products</h3>
+
+        <div class="sidebar-item">
+          <span class="sidebar-item__name">Product Name</span>
+          <img class="sidebar-item__image" 
+            src="images/fp1.jpg" alt="teeth care"></img>
+          <span class="sidebar-item__info">Product Short Description.<br>The 
+            quick brown fox jumps over the lazy dog.</span>
+        </div>
+
+        <div class="sidebar-item">
+          <span class="sidebar-item__name">Product Name</span>
+          <img class="sidebar-item__image" 
+            src="images/fp2.jpg" alt="doctors"></img>
+          <span class="sidebar-item__info">Product Short Description.<br>The 
+            quick brown fox jumps over the lazy dog.</span>
+        </div>
+      </div>
+
+      <div class="ad">
+        <span class="ad__title">Advertisement</span>
+        <a href="#" class="ad__image ad__image_penguins"></a>
+        <span class="ad__signature">Ads By Denteez.com</span>
+      </div>
+    </aside>
+
+    <main class="main">
+      <section class="services">
+        <button class="btn services__btn" type="button">Add new service</button>
+        <h1 class="services__title">Service directory</h1>
+        
+        <div class="services__content">
+          <div class="service">
+            <a class="service__image service__image_accountancy" href="#">
+              
+            </a>
+            <span class="service__name">Accountancy</span>
+          </div>
+
+          <div class="service">
+            <a class="service__image service__image_associations" href="#"></a>
+            <span class="service__name">Associations</span>
+          </div>
+
+          <div class="service">
+            <a class="service__image service__image_buy-sell-dental-practice" 
+              href="#"></a>
+            <span class="service__name">Buy/sell dental practice</span>
+          </div>
+
+          <div class="service">
+            <a class="service__image service__image_clinical-waste-collection" 
+              href="#"></a>
+            <span class="service__name">Clinical waste collection</span>
+          </div>
+
+          <div class="service">
+            <a class="service__image service__image_computer-service" 
+              href="#"></a>
+            <span class="service__name">Computer service</span>
+          </div>
+
+          <div class="service">
+            <a class="service__image service__image_cpr-basic-life-support-training" 
+              href="#"></a>
+            <span class="service__name">CPR/Basic life support training</span>
+          </div>
+
+          <div class="service">
+            <a class="service__image service__image_dental-recruitment" 
+              href="#"></a>
+            <span class="service__name">Dental recruitment</span>
+          </div>
+
+          <div class="service">
+            <a class="service__image service__image_dental-software" 
+              href="#"></a>
+            <span class="service__name">Dental software</span>
+          </div>
+
+          <div class="service">
+            <a class="service__image service__image_electrical-safety-and-testing" 
+              href="#"></a>
+            <span class="service__name">Electrical safety and testing</span>
+          </div>
+
+          <div class="service">
+            <a class="service__image service__image_marketing" href="#"></a>
+            <span class="service__name">Marketing</span>
+          </div>
+
+          <div class="service">
+            <a class="service__image service__image_others" href="#"></a>
+            <span class="service__name">Others</span>
+          </div>
+
+          <div class="service">
+            <a class="service__image service__image_repairs" href="#"></a>
+            <span class="service__name">Repairs</span>
+          </div>
+
+          <div class="service">
+            <a class="service__image service__image_solicitors" href="#"></a>
+            <span class="service__name">Solicitors</span>
+          </div>
+
+          <div class="service">
+            <a class="service__image service__image_surgery-design" 
+              href="#"></a>
+            <span class="service__name">Surgery design</span>
+          </div>
+
+          <div class="service">
+            <a class="service__image service__image_training-and-courses" 
+              href="#"></a>
+            <span class="service__name">Training & courses</span>
+          </div>
+
+          <div class="service">
+            <a class="service__image service__image_web-designers" href="#"></a>
+            <span class="service__name">Web designers</span>
+          </div>
+
+          <div class="service">
+            <a class="service__image service__image_cleaning-agencies" 
+              href="#"></a>
+            <span class="service__name">Cleaning agencies</span>
+          </div>
+
+          <div class="service">
+            <a class="service__image service__image_dental-chair-recovery" 
+              href="#"></a>
+            <span class="service__name">Dental chair recovery</span>
+          </div>
+
+          <div class="service">
+            <a class="service__image service__image_equipment-engineering" 
+              href="#"></a>
+            <span class="service__name">Equipment engineering</span>
+          </div>
+
+          <div class="service">
+            <a class="service__image service__image_selling-gold" 
+              href="#"></a>
+            <span class="service__name">Selling gold</span>
+          </div>
+
+          <div class="service">
+            <a class="service__image service__image_uniform-and-workwear" 
+              href="#"></a>
+            <span class="service__name">Uniform & workwear</span>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

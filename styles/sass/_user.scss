@@ -1,0 +1,35 @@
+.user {
+  display: flex;
+  align-items: center;
+
+  &__chat {
+    display: inline-block;
+    width: 26px;
+    height: 22px;
+    margin-right: 20px;
+    background: url(../images/icons.png) no-repeat -10px -54px;
+  }
+
+  &__notifications {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 30px;
+    background: url(../images/icons.png) no-repeat -10px -183px;
+  }
+
+  &__avatar {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 3px;
+    background-image: url(../images/user-avatar.jpg);
+  }
+
+  &__name {
+    color: #fefefe;
+    font-family: $font;
+    text-decoration: none;
+  }
+} 

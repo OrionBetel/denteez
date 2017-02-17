@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  min-width: 970px;
+  max-width: 1440px;
+  width: 96.9%;
+  margin: 0 auto;
+
+  &_flex {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.clearfix {
+  display: table;
+  clear: both;
+  content: '';
+}
+
+.btn {
+  border: none;
+  border-radius: 4px;
+  padding: 0 20px;
+  color: #fff;
+  font-family: $font;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: capitalize;
+  background-color: $chb;
+}

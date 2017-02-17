@@ -1,0 +1,114 @@
+.service {
+  width: 140px;
+  margin: 15px 9px 0;
+
+  &__image {
+    display: block;
+    width: 100%;
+    height: 140px;
+    border: 1px solid $divider;
+    background: url(../images/service.png);
+
+    &_accountancy {
+      background-position: -5.5px -5.5px;
+    }
+
+    &_associations {
+      background-position: -156.5px -7.5px;
+    }
+
+    &_buy-sell-dental-practice {
+      background-position: -310.5px -6.5px;
+    }
+
+    &_clinical-waste-collection {
+      background-position: -7px -162.5px;
+    }
+
+    &_computer-service {
+      background-position: -158px -161px;
+    }
+
+    &_cpr-basic-life-support-training {
+      background-position: -310.5px -161px;
+    }
+
+    &_dental-recruitment {
+      background-position: -6px -315px;
+    }
+
+    &_dental-software {
+      background-position: -158px -314px;
+    }
+
+    &_electrical-safety-and-testing {
+      background-position: -310.5px -314px;
+    }
+
+    &_marketing {
+      background-position: -156px -465.5px;
+    }
+
+    &_others {
+      background-position: -305.5px -464.5px;
+    }
+
+    &_repairs {
+      background-position: -455px -464.5px;
+    }
+
+    &_solicitors {
+      background-position: -613.5px -151px;
+    }
+
+    &_surgery-design {
+      background-position: -615.5px -301.5px;
+    }
+
+    &_training-and-courses {
+      background-position: -612.5px -451px;
+    }
+
+    &_web-designers {
+      background-position: -603.5px -599.5px;
+    }
+
+    &_cleaning-agencies {
+      background-position: -464px -7.5px;
+    }
+
+    &_dental-chair-recovery {
+      background-position: -463px -161.5px;
+    }
+
+    &_equipment-engineering {
+      background-position: -463px -314px;
+    }
+
+    &_selling-gold {
+      background-position: -615.5px -3px;
+    }
+
+    &_uniform-and-workwear {
+      background-position: 1px -600.5px;
+    }
+
+    &:hover {
+      background-color: #f4f7fb;
+    }
+
+    &:hover + * {
+      color: #71973c;
+    }
+  }
+
+  &__name {
+    display: block;
+    height: 34px;
+    margin: 15px 0;
+    font-size: 14px;
+    text-align: center;
+    line-height: 17px;
+    text-transform: capitalize;
+  }
+}

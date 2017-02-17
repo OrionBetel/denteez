@@ -1,0 +1,22 @@
+.sidebar-section {
+  border-bottom: 1px solid $divider;
+
+  &__title {
+    margin: 0;
+    color: $ccs;
+    font-family: $font;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 50px;
+  }
+
+  &__see-all-link {
+    float: right;
+    color: $ccm;
+    font-family: $font;
+    font-size: 14px;
+    line-height: 50px;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+}

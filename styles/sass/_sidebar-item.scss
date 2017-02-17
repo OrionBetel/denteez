@@ -1,0 +1,33 @@
+.sidebar-item {
+  font-family: $font;
+  margin-bottom: 20px;
+
+  &__image {
+    display: block;
+    width: 81px;
+    height: 80px;
+    float: left;
+    margin-right: 6px;
+  }
+
+  &__name {
+    display: block;
+    margin-bottom: 4px;
+    color: #1c2534;
+    font-size: 16px;
+    text-transform: capitalize;
+  }
+
+  &__info {
+    display: block;
+    margin-bottom: 4px;
+    color: $ccs;
+    font-size: 14px;
+  }
+
+  &__link {
+    color: $ccm;
+    font-size: 12px;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,23 @@
+.services {
+  font-family: $font;
+
+  &__btn {
+    float: right;
+  }
+
+  &__title {
+    margin: 12px 0 20px;
+    color: $ccm;
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid $divider;
+    border-radius: 4px;
+    padding: 0 5px;
+  }
+}

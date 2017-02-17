@@ -1,0 +1,11 @@
+.sidebar {
+  width: 212px;
+  
+  &_left {
+    float: left;
+  }
+
+  &_right {
+    float: right;
+  }
+}

@@ -1,0 +1,35 @@
+.ad {
+  border-bottom: 1px solid $divider;
+  padding-bottom: 11px;
+
+  &__title {
+    display: block;
+    padding: 17px 0;
+    color: $ccs;
+    font-family: $font;
+    font-size: 14px;
+  }
+
+  &__image {
+    display: block;
+    width: 210px;
+    height: 300px;
+    margin: 0 auto;
+
+    &_captain {
+      background-image: url(../images/ad-captain.jpg);
+    }
+
+    &_penguins {
+      border: 1px solid #ddd;
+      background-image: url(../images/ad-penguins.jpg);
+    }
+  }
+
+  &__signature {
+    color: #d3d3d3;
+    font-family: $font;
+    font-size: 11px;
+    line-height: 25px;
+  }
+}

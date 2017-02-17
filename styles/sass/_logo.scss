@@ -1,0 +1,10 @@
+.logo {
+  display: block;
+  width: 130px;
+  height: 40px;
+  background-image: url(../images/logo.png);
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    background-image: url(../images/logo@2x.png);
+  }
+}

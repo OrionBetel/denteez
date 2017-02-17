@@ -1,0 +1,36 @@
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  &__item {
+    display: block;
+    border-bottom: 1px solid $divider;
+    padding-left: 51px;
+    background: url(../images/icons.png) left center no-repeat;
+
+    &_feed {
+      background-position: -10px -126px;
+    }
+
+    &_ask {
+      background-position: -10px 3.5px;
+    }
+
+    &_companies {
+      background-position: -10px -82.5px;
+    }
+
+    &_service-directory {
+       background-position: -10px -249.5px;
+    }
+  }
+
+  &__link {
+    color: #59606b;
+    font-family: $font;
+    font-size: 16px;
+    line-height: 50px;
+    text-decoration: none;
+  }
+}
